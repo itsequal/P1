@@ -25,7 +25,7 @@
 		<!-- Add your custom HEAD content here -->
 
 	</head>
-	<body>
+	<body onload="getinfo()">
 		<div id="content-container" >
 			<div id="page_desktop___1_ek1"  >
 				<div id="_bg__desktop___1_ek2"  ></div>
@@ -90,7 +90,7 @@
 
 				</div>
 				<div id="sensores_utilizados_para_la_automatizaci_n_del_invernadero_" >
-					Sensores utilizados para la automatizaci<span class="char">%C3%B3n</span>n del invernadero.
+					Sensores utilizados para la automatizaci<span class="char">%C3%B3n</span> del invernadero.
 				</div>
 
 				<div id="header___2"  >
@@ -175,5 +175,6 @@
 
 		</div>
 		<script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
+		<script src="desktop___1.js"></script>
 	</body>
 </html>
