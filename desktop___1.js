@@ -10,7 +10,7 @@ getinfo = () => {
     .then(()=>
         v.forEach(element=>{
             console.log(element)
-        document.getElementById('headings___h6_ek6').innerHTML=`Temperatura del suelo: ${element.temperatura}`
+            document.getElementById('headings___h6_ek6').innerHTML=`Temperatura del suelo: ${element.temperatura}`
         })  
     )
 }

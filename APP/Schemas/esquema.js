@@ -3,8 +3,12 @@ var mongoose = require("mongoose");
 
 //Esquema JSON que vamos a usar
 const mqttSchema = new mongoose.Schema({
+  HumedadTierra: Number,
+  FotoSensor: Number,
+  LitrosMinutos: Number,
+  SensorAgua: Number,
   equipo: String,
-  temperatura: String,
+  tiempo: String,
 });
 
 //Se crea el modelo especificando el nombre de la colección y el nombre del esquema y se exporta
