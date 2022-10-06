@@ -14,7 +14,7 @@ var express = require('express')
 var app = express()       
 var cors=require('cors');
 var bodyParser = require('body-parser')        
- 
+
 var port = process.env.PORT || 1339
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -22,8 +22,10 @@ app.use(bodyParser.json())
  
 // nuestra ruta irá en http://localhost:8080/api
 // es bueno que haya un prefijo, sobre todo por el tema de versiones de la API
-var router = require('./routes')
+var router = require('./routes/index')
+
 app.use('/api', router)
+app.use(express.static(__dirname));
 
 //Se hace la conexión MQTT
 client.on('connect', () => {

@@ -1,5 +1,8 @@
 var router = require('express').Router()
- 
+
+var page = require('./page')
+router.use('/', page)
+
 var invernadero = require('./invernadero')
 router.use('/invernadero', invernadero)
  
