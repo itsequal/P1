@@ -1,5 +1,5 @@
 getinfo = () => {
-    fetch('http://localhost:1339/api/invernadero', {
+    fetch('https://dasfasdasd.azurewebsites.net/api/invernadero', {
         method: 'GET',
         headers:{
             'Content-Type': 'application/json'
