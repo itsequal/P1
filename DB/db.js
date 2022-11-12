@@ -7,7 +7,7 @@ var pwd = "admin";
 mongoose.Promise = global.Promise;
 mongoose
   .connect(
-    `mongodb+srv://${user}:${pwd}@cluster0.wa7ulrb.mongodb.net/invernaderos`
+    `mongodb+srv://${user}:${pwd}@greenhouse.odkvpcy.mongodb.net/invernaderos`
   )
   .then(() => {
     console.log("Conexión exitosa con la Base de Datos");
