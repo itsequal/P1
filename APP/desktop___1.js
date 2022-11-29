@@ -1,16 +1,25 @@
 getinfo = () => {
-    fetch('https://dasfasdasd.azurewebsites.net/api/invernadero', {
-        method: 'GET',
-        headers:{
-            'Content-Type': 'application/json'
-        }
-    })
-    .then(res => res.json())
-    .then(response => v = response)
-    .then(()=>
-        v.forEach(element=>{
-            console.log(element)
-            document.getElementById('headings___h6_ek6').innerHTML=`Temperatura del suelo: ${element.HumedadTierra}`
-        })  
-    )
-}
+  fetch("https://greenhouse7c.azurewebsites.net/api/invernadero", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((res) => res.json())
+    .then((response) => (v = response))
+    .then(() =>
+      v.forEach((element) => {
+        console.log(element);
+        document.getElementById(
+          "humedad"
+        ).innerHTML = `${element.HumedadTierra}`;
+        document.getElementById("luz").innerHTML = `${element.FotoSensor}`;
+        document.getElementById(
+          "litros_agua"
+        ).innerHTML = `${element.LitrosMinuto}`;
+        document.getElementById(
+          "temperatura"
+        ).innerHTML = `${element.SensorAgua}`;
+      })
+    );
+};
