@@ -16,10 +16,17 @@ getinfo = () => {
         document.getElementById("luz").innerHTML = `${element.FotoSensor}`;
         document.getElementById(
           "litros_agua"
-        ).innerHTML = `${element.LitrosMinuto}`;
+        ).innerHTML = `${element.LitrosMinutos}`;
         document.getElementById(
           "temperatura"
         ).innerHTML = `${element.SensorAgua}`;
       })
     );
 };
+
+//Loads data on load of page
+window.onload = getinfo();
+
+//Loads data every 10 seconds
+setInterval(getinfo, 10000);
+
