@@ -1,5 +1,5 @@
 /*
-	@name desktop___1
+	@name homepage
 */
 /* Only edit this if you know what you are doing! */
 body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
@@ -10,58 +10,47 @@ img { position: absolute; display: block; margin: 0px; border: none; padding: 0p
 /* Only edit this if you know what you are doing! */
 div { position: absolute; }
 
-#content-container { display: block; position: relative; width: 1440px; width: 1440px; height: 1024px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+#content-container { display: block; position: relative; width: 1447px; width: 1447px; height: 993px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
 
-
-#page_desktop___1_ek1 {
+#_bg__homepage {
 	top: 0px;
 	left: 0px;
-	width: 1440px;
-	height: 1024px;
-}
-
-#_bg__desktop___1_ek2 {
-	top: 0px;
-	left: 0px;
-	width: 1440px;
-	height: 1024px;
+	width: 1447px;
+	height: 993px;
 	background:rgba(255,255,255,1);
 }
 
+#group_7 {
+	top: 31px;
+	left: 27px;
+	width: 163px;
+	height: 53px;
+}
 
 #image_6 {
-	top: -546px;
-	left: -629px;
+	top: 0px;
+	left: 0px;
 	width: 53px;
 	height: 53px;
 }
 
 
-#rectangle_5 {
-	top: -386px;
-	left: 255px;
-	width: 466px;
-	height: 641px;
-	-ms-border-radius: 15px;
-	-o-border-radius: 15px;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-	border-radius: 15px;
-	background:rgba(217,217,217,1);
+#textlabanda {
+	top: 15px;
+	left: 63px;
+	width: 129px;
+	height: 39px;
+	overflow: hidden;
+	font-family: Outfit;
+	font-size: 24px;
+	text-align: left;
+	color:#161515;
 }
 
 
-#plant_eco_printmakers_1 {
-	top: -578px;
-	left: -367px;
-	width: 588px;
-	height: 1024px;
-}
-
-
-#greenhouse {
-	top: -105px;
-	left: -701px;
+#textgreenhouse {
+	top: 474px;
+	left: -89px;
 	width: 623px;
 	height: 135px;
 	overflow: hidden;
@@ -78,240 +67,9 @@ div { position: absolute; }
 	color:#221E1E;
 }
 
-
-#labanda {
-	top: -531px;
-	left: -566px;
-	width: 129px;
-	height: 39px;
-	overflow: hidden;
-	font-family: Outfit;
-	font-size: 24px;
-	text-align: left;
-	color:#161515;
-}
-
-
-#estado {
-	top: -378px;
-	left: 412px;
-	width: 201.5px;
-	height: 74.5px;
-	overflow: hidden;
-	font-family: Outfit;
-	font-size: 45px;
-	text-align: left;
-	color:#161515;
-}
-
-
-#rectangle_1 {
-	top: -262px;
-	left: 270px;
-	width: 435px;
-	height: 102px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	background:rgba(217,217,217,1);
-}
-
-
-#rectangle_4 {
-	top: 131px;
-	left: 270px;
-	width: 435px;
-	height: 102px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	background:rgba(245,240,222,1);
-}
-
-
-#rectangle_3 {
-	top: 0px;
-	left: 270px;
-	width: 435px;
-	height: 102px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	background:rgba(245,240,222,1);
-}
-
-
-#rectangle_2 {
-	top: -131px;
-	left: 270px;
-	width: 435px;
-	height: 102px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	background:rgba(245,240,222,1);
-}
-
-
-#humedad_del_suelo {
-	top: -124px;
-	left: 282px;
-	width: 282px;
-	height: 38px;
-	overflow: hidden;
-	font-family: Outfit;
-	font-size: 24px;
-	text-align: left;
-	color:#161515;
-}
-
-
-#luz_ambiental {
-	top: 137px;
-	left: 282px;
-	width: 282px;
-	height: 38px;
-	overflow: hidden;
-	font-family: Outfit;
-	font-size: 24px;
-	text-align: left;
-	color:#161515;
-}
-
-
-#_4095 {
-	top: 182px;
-	left: 355px;
-	width: 158px;
-	height: 38px;
-	overflow: hidden;
-	font-family: Roboto;
-	font-size: 24px;
-	text-align: left;
-	color:#161515;
-}
-
-
-#_30_44 {
-	top: -208px;
-	left: 355px;
-	width: 158px;
-	height: 38px;
-	overflow: hidden;
-	font-family: Roboto;
-	font-size: 24px;
-	text-align: left;
-	color:#161515;
-}
-
-
-#_3551 {
-	top: -76px;
-	left: 355px;
-	width: 158px;
-	height: 38px;
-	overflow: hidden;
-	font-family: Roboto;
-	font-size: 24px;
-	text-align: left;
-	color:#161515;
-}
-
-
-#_11_39 {
-	top: 56px;
-	left: 355px;
-	width: 158px;
-	height: 38px;
-	overflow: hidden;
-	font-family: Roboto;
-	font-size: 24px;
-	text-align: left;
-	color:#161515;
-}
-
-
-#litros_de_agua {
-	top: 7px;
-	left: 282px;
-	width: 282px;
-	height: 38px;
-	overflow: hidden;
-	font-family: Outfit;
-	font-size: 24px;
-	text-align: left;
-	color:#161515;
-}
-
-
-#temperatura_ambiental {
-	top: -254px;
-	left: 282px;
-	width: 347px;
-	height: 38px;
-	overflow: hidden;
-	font-family: Outfit;
-	font-size: 24px;
-	text-align: left;
-	color:#161515;
-}
-
-
-#aqui_podras_observar_los_datos_de_los_sensores_que_estan_conectados_en_el_invernadero_ {
-	top: -321px;
-	left: 267px;
-	width: 450px;
-	height: 57px;
-	overflow: hidden;
-	font-family: Outfit;
-	font-size: 20px;
-	text-align: justified;
-	color:#161515;
-}
-
-
-#image_1 {
-	top: -89px;
-	left: 282px;
-	width: 46px;
-	height: 46px;
-}
-
-
-#image_2 {
-	top: -221px;
-	left: 282px;
-	width: 46px;
-	height: 46px;
-}
-
-
-#image_3 {
-	top: 170px;
-	left: 282px;
-	width: 46px;
-	height: 46px;
-}
-
-
-#image_4 {
-	top: 44px;
-	left: 282px;
-	width: 46px;
-	height: 46px;
-}
-
 #group_1 {
-	top: -530px;
-	left: 255px;
+	top: 47px;
+	left: 862px;
 	width: 45px;
 	height: 19px;
 }
@@ -337,6 +95,274 @@ div { position: absolute; }
 	left: 0px;
 	width: 18px;
 	height: 0px;
+}
+
+
+#imageplant {
+	top: 166px;
+	left: 336px;
+	width: 436px;
+	height: 827px;
+}
+
+#framedatos {
+	top: 187px;
+	left: 889px;
+	width: 466px;
+	height: 652px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(108, 183, 107, 1);
+}
+#groupluzambiental {
+	top: 537px;
+	left: 17px;
+	width: 434px;
+	height: 102px;
+}
+
+#rectangle_4 {
+	top: 0px;
+	left: 0px;
+	width: 434px;
+	height: 102px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(245,240,222,1);
+}
+
+
+#text10 {
+	top: 17px;
+	left: 85px;
+	width: 182px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Outfit;
+	font-size: 24px;
+	text-align: left;
+	color:#161515;
+}
+
+
+#text9 {
+	top: 51px;
+	left: 85px;
+	width: 88px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: left;
+	color:#161515;
+}
+
+
+#image_3 {
+	top: 28px;
+	left: 20px;
+	width: 46px;
+	height: 46px;
+}
+
+#grouplagua {
+	top: 406px;
+	left: 17px;
+	width: 434px;
+	height: 102px;
+}
+
+#rectangle_3 {
+	top: 0px;
+	left: 0px;
+	width: 434px;
+	height: 102px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(245,240,222,1);
+}
+
+
+#text8 {
+	top: 56px;
+	left: 85px;
+	width: 98px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: left;
+	color:#161515;
+}
+
+
+#text7 {
+	top: 17px;
+	left: 85px;
+	width: 190px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Outfit;
+	font-size: 24px;
+	text-align: left;
+	color:#161515;
+}
+
+
+#image_4 {
+	top: 28px;
+	left: 20px;
+	width: 46px;
+	height: 46px;
+}
+
+#grouphumedad {
+	top: 275px;
+	left: 17px;
+	width: 434px;
+	height: 102px;
+}
+
+#rectangle_2 {
+	top: 0px;
+	left: 0px;
+	width: 434px;
+	height: 102px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(245,240,222,1);
+}
+
+
+#text6 {
+	top: 18px;
+	left: 85px;
+	width: 239px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Outfit;
+	font-size: 24px;
+	text-align: left;
+	color:#161515;
+}
+
+
+#text5 {
+	top: 55px;
+	left: 85px;
+	width: 88px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: left;
+	color:#161515;
+}
+
+
+#image_1 {
+	top: 28px;
+	left: 20px;
+	width: 46px;
+	height: 46px;
+}
+
+#grouptempambiental {
+	top: 144px;
+	left: 17px;
+	width: 434px;
+	height: 102px;
+}
+
+#rectangle_1 {
+	top: 0px;
+	left: 0px;
+	width: 434px;
+	height: 102px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(245,240,222,1);
+}
+
+
+#text4 {
+	top: 54px;
+	left: 85px;
+	width: 98px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: left;
+	color:#161515;
+}
+
+
+#text3 {
+	top: 18px;
+	left: 85px;
+	width: 289px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Outfit;
+	font-size: 24px;
+	text-align: left;
+	color:#161515;
+}
+
+
+#image_2 {
+	top: 28px;
+	left: 28px;
+	width: 30px;
+	height: 46px;
+}
+
+#groupestado {
+	top: 13px;
+	left: 17px;
+	width: 434px;
+	height: 102px;
+}
+
+#text2 {
+	top: 59px;
+	left: -3px;
+	width: 449px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Outfit;
+	font-size: 20px;
+	text-align: justified;
+	color:#161515;
+}
+
+
+#text1 {
+	top: 0px;
+	left: 142px;
+	width: 197.5px;
+	height: 74.5px;
+	overflow: hidden;
+	font-family: Outfit;
+	font-size: 45px;
+	text-align: left;
+	color:#161515;
 }
 
 
