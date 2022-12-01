@@ -1,5 +1,5 @@
 getinfo = () => {
-  fetch("https://greenhouse7c.azurewebsites.net/api/invernadero", {
+  fetch("https://greenhouse7c.azurewebsites.net/invernadero", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
