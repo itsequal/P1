@@ -24,7 +24,7 @@ app.use(bodyParser.json())
 // es bueno que haya un prefijo, sobre todo por el tema de versiones de la API
 var router = require('./routes/index')
 
-app.use('/api', router)
+app.use('/', router)
 app.use(express.static(__dirname));
 
 //Se hace la conexión MQTT
